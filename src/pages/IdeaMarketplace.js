@@ -18,6 +18,8 @@ export default function IdeaMarketplace() {
     const fetchIdeas = async () => {
       try {
         const res = await fetch(`${baseUrl}/api/ideas`);
+        // adding this cosole to check weather data is fetched from backend or not
+        console.log(res);
         const data = await res.json();
 
         if (res.status === 200) {
