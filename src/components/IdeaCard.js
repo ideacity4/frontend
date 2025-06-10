@@ -54,11 +54,11 @@ const IdeaCard = ({ idea }) => {
       <div className="flex justify-between items-center mt-5 pt-3 border-t text-sm">
         <div className="flex items-center gap-2">
           <img
-            src={idea.user.avatar}
-            alt={idea.user.name}
+            src={idea.seller_id.avatar}
+            alt={idea.seller_id.name}
             className="w-8 h-8 rounded-full object-cover"
           />
-          <span className="text-gray-700 font-medium">{idea.user.name}</span>
+          <span className="text-gray-700 font-medium">{idea.seller_id.name}</span>
         </div>
         <span className="text-yellow-600 font-semibold">{idea.price}</span>
       </div>
