@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const IdeaCard = ({ idea }) => {
   return (
-    <Link to={`/idea/${idea.id}`}>
+    <Link to={`/idea/${idea._id}`}>
     <div className="bg-white border rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
       {/* Title + Description */}
       <div>
