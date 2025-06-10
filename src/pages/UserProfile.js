@@ -43,7 +43,7 @@ export default function UserProfile() {
             name: data.name,
             email: data.email,
             // role: data.role,
-            avatar: "https://i.pravatar.cc/100", // static avatar
+            avatar: data.avatar, 
             bio: "Passionate innovator & creator.", // static bio
             credentials: "Verified Professional", // static credentials
             joined: "2023-08-15" // static join date
